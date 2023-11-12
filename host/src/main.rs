@@ -4,7 +4,10 @@
 use methods::{METHOD_NAME_ELF, METHOD_NAME_ID};
 use risc0_zkvm::{default_prover, ExecutorEnv};
 
-fn main() {
+mod check;
+
+
+fn prove_and_verify() {
     // First, we construct an executor environment
     let env = ExecutorEnv::builder().build().unwrap();
 
@@ -29,4 +32,10 @@ fn main() {
     // Optional: Verify receipt to confirm that recipients will also be able to
     // verify your receipt
     receipt.verify(METHOD_NAME_ID).unwrap();
+}
+
+fn main() {
+    // check::read_inputs();
+
+    prove_and_verify();
 }

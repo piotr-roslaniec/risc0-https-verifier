@@ -1,0 +1,15 @@
+Side data:
+NewKeyReceived { typ: ServerHandshakeTrafficSecret, client_random: ClientRandom(02fc1e130c1ffaa962334f97a5e6323f01c022fe16ae63a5be18a849b4a1b9cb), secret: Secret(c0d4d0cb55ea709af6d991c084d43f72d33149e864563c025026979acd101a524aa662dced031f5fbcc37804cff9feda) }
+
+Side data:
+NewKeyReceived { typ: ExporterSecret, client_random: ClientRandom(02fc1e130c1ffaa962334f97a5e6323f01c022fe16ae63a5be18a849b4a1b9cb), secret: Secret(959b98991c10868649b27b176497d45e20f62a72f911e0e0c296757d6b89d0b26278ef9ff5f5a93715404384bb4de1da) }
+
+Side data:
+NewKeyReceived { typ: ServerTrafficSecret0, client_random: ClientRandom(02fc1e130c1ffaa962334f97a5e6323f01c022fe16ae63a5be18a849b4a1b9cb), secret: Secret(1214dd8af0dfda0d10705977d99da3d3bcf04254ebe5ed5c68e7904d458b9166c05f6bc7f2484776f19e710d36cd48b9) }
+
+Side data:
+NewKeyReceived { typ: ClientHandshakeTrafficSecret, client_random: ClientRandom(02fc1e130c1ffaa962334f97a5e6323f01c022fe16ae63a5be18a849b4a1b9cb), secret: Secret(b266e8ce7bd22ea60ee65fe1498bfd2b429f0ae5e8b4b7205298af29023974dcf435a6497266f8836d4a293d3ccadab9) }
+
+Side data:
+NewKeyReceived { typ: ClientTrafficSecret0, client_random: ClientRandom(02fc1e130c1ffaa962334f97a5e6323f01c022fe16ae63a5be18a849b4a1b9cb), secret: Secret(dfe03eacecb45b1663a2892118d7cbe15880494936c58634aec65087cc52295cf72734b4a8abb67a881f98aba878a4e0) }
+

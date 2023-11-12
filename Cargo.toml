@@ -2,7 +2,18 @@
 members = [
     "host",
     "methods",
+    "clipper/crates/net_decode",
+    "ring-xous",
+    "sct.rs",
+    "webpki"
 ]
+
+[patch.crates-io.ring]
+path = "./ring-xous"
+features = ["std"]
+
+[patch.crates-io.sct]
+path = "./sct.rs"
 
 # Always optimize; building and running the guest takes much longer without optimization.
 [profile.dev]
